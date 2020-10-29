@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/softpuff/showtype/display"
+)
+
 type Movie struct {
 	Title, Subtitle string
 	Year            int
@@ -32,6 +36,6 @@ func main() {
 		},
 	}
 
-	displaytype.Display("Strangelove", strangelove)
+	display.Display("Strangelove", strangelove)
 
 }
